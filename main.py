@@ -9,9 +9,5 @@ color = [ 0, 255, 0 ]
 edges = []
 transform = new_matrix()
 
-# print_matrix( make_bezier() )
-# print
-# print_matrix( make_hermite() )
-# print
-
-parse_file( 'script', edges, transform, screen, color )
+parse_file('script', edges, transform, screen, color )
+parse_file('gallery_script', edges, transform, screen, color )
